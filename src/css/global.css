@@ -1,0 +1,71 @@
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+html, body, #___gatsby {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#gatsby-focus-wrapper {
+   height: 100%;
+}
+
+div[role="group"][tabindex] {
+    min-height: 100%;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    justify-content: center;
+    
+}
+
+.margin {
+    margin: 0 12%;
+}
+
+@media(max-width: 800px) {
+    .margin {
+        margin: 0 3rem;
+    }
+}
+
+@media(max-width: 625px) {
+    .margin {
+        margin: 0 3rem;
+    }
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.lineHeight-sm {
+    line-height: 120%;
+}
+
+.downloadButton {
+    transition: background-color 0.25s ease;
+    border-radius: 0.7rem;
+}
+
+.downloadButton:hover {
+    @apply bg-gray-200;
+}
+
+.border-top {
+    border-top-width: 1px;
+    @apply border-gray-200;
+}
