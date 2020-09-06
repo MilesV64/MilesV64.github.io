@@ -20,7 +20,7 @@ const Layout = ({ children, pageContext, location }) => {
     
     return (
         <div className='background'>
-            <Header className="margin" selectedIndex={index}/>
+            <Header selectedIndex={index}/>
             <div className='content margin'>{children}</div>
             <Footer />
         </div>

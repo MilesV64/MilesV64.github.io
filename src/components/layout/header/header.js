@@ -6,9 +6,9 @@ import { Link } from 'gatsby';
 const Header = ( props ) => {
 
     return (
-        <div className={props.className + " py-10 flex items-center"}>
-            <Link to="/">
-                <img src={Logo} alt='Andante Logo' className="mr-4 w-12 h-12"/>
+        <div className={props.className + " " + styles.hideScrollbar + " padding z-50 py-10 flex items-center overflow-auto"}>
+            <Link to="/" className="flex-none mr-4 w-12 h-12">
+                <img src={Logo} alt='Andante Logo'/>
             </Link>
             
             <Link to="/" className={props.selectedIndex === 0 ? styles.selectedNavItem : styles.navItem}>Andante</Link>

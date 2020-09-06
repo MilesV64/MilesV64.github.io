@@ -2,7 +2,7 @@
     border-bottom-width: 2px;
     border-bottom-color: #FD7757;
     box-sizing: border-box;
-    @apply mx-6 py-1 text-gray-800 text-base font-medium;
+    @apply mx-6 py-1 text-gray-800 text-base font-medium flex-none;
 }
 
 .navItem {
@@ -10,9 +10,20 @@
     border-bottom-color: #ffffff;
     box-sizing: border-box;
     transition: color 0.25s ease;
-    @apply mx-6 py-1 text-gray-500 text-base font-medium transition-colors;
+    @apply mx-6 py-1 text-gray-500 text-base font-medium transition-colors flex-none;
 }
 
 .navItem:hover {
     @apply text-gray-800;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
