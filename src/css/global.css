@@ -44,7 +44,7 @@ div[role="group"][tabindex] {
 
 @media(max-width: 625px) {
     .margin {
-        margin: 0 3rem;
+        margin: 0 1rem;
     }
 }
 
