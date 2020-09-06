@@ -10,7 +10,7 @@ module.exports = {
     description:
       "Achieve calm, focused music practice with the help of a minimal but effect digital practice journal. Download free for iPhone!",
     url: "https://www.getthepracticeapp.com",
-    image: "/favicon.png" 
+    image: "/favicon.ico" 
   },
   plugins: [
     'gatsby-plugin-postcss',
