@@ -1,6 +1,6 @@
 import React from "react"
 
-const FAQ = ( props ) => {
+const Support = ( props ) => {
 
   return (
     <div></div>
@@ -8,4 +8,4 @@ const FAQ = ( props ) => {
 
 }
 
-export default FAQ;
+export default Support;

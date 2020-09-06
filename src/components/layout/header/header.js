@@ -12,7 +12,7 @@ const Header = ( props ) => {
             </Link>
             
             <Link to="/" className={props.selectedIndex === 0 ? styles.selectedNavItem : styles.navItem}>Andante</Link>
-            <Link to="/faq" className={props.selectedIndex === 1 ? styles.selectedNavItem : styles.navItem}>Support</Link>
+            <Link to="/support" className={props.selectedIndex === 1 ? styles.selectedNavItem : styles.navItem}>Support</Link>
             <Link to="/contact" className={props.selectedIndex === 2 ? styles.selectedNavItem : styles.navItem}>Contact Me</Link>
         </div>
     )

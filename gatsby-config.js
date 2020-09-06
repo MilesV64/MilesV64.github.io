@@ -5,10 +5,17 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "Andante • Music Practice Journal",
+    description:
+      "Achieve calm, focused music practice with the help of a minimal but effect digital practice journal. Download free for iPhone!",
+    url: "https://www.getthepracticeapp.com",
+    image: "/favicon.png" 
+  },
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-svg',
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-layout`,
       options: {
