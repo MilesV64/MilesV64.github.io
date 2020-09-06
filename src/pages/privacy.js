@@ -50,7 +50,7 @@ const Privacy = ( props ) => {
             <TitleLabel
                 text="Data Export" />
             <BodyText
-                text="Apple collects error logs if you have chosen to allow it on your device. If allowed, Apple anonymously shares useful data to see what may have gone wrong." />
+                text="Premium users have the option of exporting their practice data as a .csv file. This file contains your profile and practice data which can be manipulated or used in data analyitics programs. The file is completely under your control and is only sent where you choose to send it when you export your data." />
 
             <TitleLabel
                 text="Questions?" />
