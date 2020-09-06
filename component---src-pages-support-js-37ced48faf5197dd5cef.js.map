@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/support.js"],"names":["Support","props"],"mappings":"2FAAA,gCAUeA,UARC,SAAEC,GAEhB,OACE","file":"component---src-pages-support-js-37ced48faf5197dd5cef.js","sourcesContent":["import React from \"react\"\n\nconst Support = ( props ) => {\n\n  return (\n    <div></div>\n  )\n\n}\n\nexport default Support;"],"sourceRoot":""}
