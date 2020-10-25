@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{He0s:function(e,r,t){"use strict";t.r(r);var a=t("q1tI"),n=t.n(a);r.default=function(e){return n.a.createElement("iframe",{class:"airtable-embed",src:"https://airtable.com/embed/shr8LpJHSEJUWIPJ2?backgroundColor=purple",frameborder:"0",onmousewheel:"",width:"100%",height:"1311",style:{background:"transparent"}})}}}]);
-//# sourceMappingURL=component---src-pages-feedback-js-d56168f6cf2a6cdfa5c2.js.map
