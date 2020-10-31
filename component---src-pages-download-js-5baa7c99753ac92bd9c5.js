@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"9V/+":function(n,a,e){"use strict";e.r(a);var t=e("q1tI"),p=e.n(t);a.default=function(n){return p.a.useEffect((function(){window.location.replace("https://apps.apple.com/us/app/andante-practice-journal/id1530262372")})),p.a.createElement("div",null)}}}]);
+//# sourceMappingURL=component---src-pages-download-js-5baa7c99753ac92bd9c5.js.map
