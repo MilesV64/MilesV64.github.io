@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/download.js"],"names":["Download","props"],"mappings":"6FAAA,gCAUeA,UARE,SAAEC,GAEf,OACI","file":"component---src-pages-download-js-7c433a657d837a6b2bad.js","sourcesContent":["import React from 'react';\n\nconst Download = ( props ) => {\n\n    return (\n        <div></div>\n    )\n\n}\n\nexport default Download;"],"sourceRoot":""}
